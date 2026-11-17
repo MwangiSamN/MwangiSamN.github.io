@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sam Ndung’u Mwangi | Delivery Operations and People Leader</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6fb;--bg2:#e9edf6;--card:rgba(255,255,255,.75);--ink:#0e1726;--muted:#4b5a70;--line:rgba(14,23,38,.14);--a:#0a8f86;--b:#5b3fe0;--c:#c47a00;--on:#fff;--glow:rgba(91,63,224,.16);
+--d:'Bricolage Grotesque','Segoe UI',Helvetica,Arial,sans-serif;--t:'IBM Plex Sans','Segoe UI',Helvetica,Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#070d14;--bg2:#0d1722;--card:rgba(20,32,46,.7);--ink:#e9f0f7;--muted:#9cadbf;--line:rgba(160,190,220,.16);--a:#3ef0d0;--b:#9b82ff;--c:#ffb547;--on:#06222a;--glow:rgba(62,240,208,.14);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#070d14;--bg2:#0d1722;--card:rgba(20,32,46,.7);--ink:#e9f0f7;--muted:#9cadbf;--line:rgba(160,190,220,.16);--a:#3ef0d0;--b:#9b82ff;--c:#ffb547;--on:#06222a;--glow:rgba(62,240,208,.14);color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 4rem);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--t);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+a{color:var(--a)}
+:focus-visible{outline:3px solid var(--c);outline-offset:3px}
+.wrap{max-width:66rem;margin:0 auto;padding:0 1.25rem}
+#bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:3px;width:0;background:var(--a);z-index:40}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:.65rem;padding-bottom:.65rem}
+.logo{font-family:var(--d);font-weight:800;font-size:1.15rem;text-decoration:none;color:var(--ink)}
+header nav{display:flex;gap:1.2rem;align-items:center}
+header nav a{color:var(--muted);text-decoration:none;font-size:.95rem;font-weight:500}
+header nav a:hover{color:var(--ink)}
+@media(max-width:640px){header nav a.hide{display:none}}
+.tg{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:2rem;width:2.4rem;height:2.4rem;cursor:pointer;font-size:1.05rem}
+h1,h2,h3{font-family:var(--d);margin:0;line-height:1.05}
+h2{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;letter-spacing:-.03em;margin-bottom:.6rem}
+.sub{color:var(--muted);max-width:38rem;margin:0 0 2.2rem}
+section{padding:5.5rem 0;position:relative}
+/* hero */
+.hero{min-height:calc(100svh - 3.6rem);display:flex;align-items:center;padding:3rem 0;overflow:hidden;background:var(--bg)}
+#cv{position:absolute;inset:0;width:100%;height:100%}
+.hero .wrap{position:relative;z-index:2;pointer-events:none}
+.hero .wrap>*{pointer-events:auto}
+.pill{display:inline-flex;align-items:center;gap:.55rem;border:1px solid var(--line);background:var(--card);padding:.35rem .9rem;border-radius:2rem;font-size:.9rem;color:var(--muted)}
+.pill i{width:.55rem;height:.55rem;border-radius:50%;background:var(--a);box-shadow:0 0 0 0 var(--a);animation:ping 2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 .6rem transparent}100%{box-shadow:0 0 0 0 transparent}}
+h1{font-size:clamp(3rem,10.5vw,7.6rem);font-weight:800;letter-spacing:-.045em;margin:1.2rem 0 1rem}
+h1 span{display:block;color:var(--a)}
+.role{font-family:var(--d);font-size:clamp(1.3rem,3.4vw,2rem);font-weight:500;min-height:2.6rem}
+.role b{color:var(--a);font-weight:700}
+.caret{display:inline-block;width:3px;height:1.1em;background:var(--a);margin-left:3px;vertical-align:-.15em;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.lead{max-width:36rem;color:var(--muted);font-size:1.15rem;margin:1rem 0 2rem}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.85rem 1.5rem;border-radius:3rem;font-weight:500;text-decoration:none;border:1.5px solid var(--line);color:var(--ink);background:var(--card);transition:transform .2s}
+.btn.main{background:var(--a);color:var(--on);border:0;font-weight:700}
+.btn:hover{transform:translateY(-3px)}
+.scroll{position:absolute;bottom:1.2rem;left:50%;translate:-50% 0;z-index:2;color:var(--muted);font-size:.8rem}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:1rem;margin-top:-2rem;position:relative;z-index:3}
+.stat{padding:1.4rem;text-align:left}
+.stat b{font-family:var(--d);font-size:clamp(2.2rem,5vw,3.2rem);font-weight:800;display:block;line-height:1;color:var(--a)}
+.stat span{color:var(--muted);font-size:.92rem}
+/* glass card w/ spotlight */
+.gl{background:var(--card);border:1px solid var(--line);border-radius:1.1rem;backdrop-filter:blur(10px);position:relative;overflow:hidden}
+.gl::before{content:"";position:absolute;inset:0;background:var(--glow);opacity:0;transition:opacity .3s;pointer-events:none}
+.gl:hover::before{opacity:1}
+/* about */
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:2.5rem;align-items:start}
+@media(max-width:760px){.about{grid-template-columns:1fr}}
+.about p{margin:0 0 1rem;color:var(--muted)}
+.about p:first-child{color:var(--ink);font-size:1.3rem;font-family:var(--d);font-weight:500;line-height:1.35}
+.focus{padding:1.5rem}
+.focus h3{font-size:1.1rem;margin-bottom:1rem}
+.focus li{display:flex;gap:.7rem;margin-bottom:.8rem;list-style:none}
+.focus ul{margin:0;padding:0}
+.focus li::before{content:"";flex:none;width:.7rem;height:.7rem;margin-top:.5rem;border-radius:.2rem;background:var(--a)}
+/* skills */
+.band{overflow:hidden;border-block:1px solid var(--line);background:var(--bg2);padding:1rem 0}
+.track{display:flex;gap:2.2rem;width:max-content;animation:mq 45s linear infinite;font-family:var(--d);font-size:1.5rem;font-weight:700;color:var(--muted)}
+.track span::after{content:"/";margin-left:2.2rem;color:var(--a)}
+@keyframes mq{to{transform:translateX(-50%)}}
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin:2rem 0 1.2rem}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:.55rem 1.1rem;border-radius:2rem;font:500 .95rem var(--t);cursor:pointer}
+.tab[aria-selected=true]{background:var(--a);color:var(--on);border-color:transparent;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:.6rem;padding:0;margin:0;list-style:none;min-height:8rem}
+.chips li{padding:.5rem 1rem;border:1px solid var(--line);border-radius:.7rem;background:var(--card);animation:pop .4s both}
+@keyframes pop{from{opacity:0;transform:scale(.85) translateY(8px)}}
+/* journey */
+.tl{position:relative;padding-left:2.2rem;display:grid;gap:1rem}
+.tl::before{content:"";position:absolute;left:.55rem;top:0;bottom:0;width:2px;background:var(--line)}
+.fill{position:absolute;left:.55rem;top:0;width:2px;height:0;background:var(--a)}
+details.job{position:relative}
+details.job::after{content:"";position:absolute;left:-1.9rem;top:1.5rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--bg);border:2px solid var(--a)}
+details.job[open]::after{background:var(--c);border-color:var(--c);box-shadow:0 0 0 5px var(--glow)}
+details.job summary{cursor:pointer;list-style:none;padding:1.2rem 1.4rem;display:flex;gap:.3rem 1rem;flex-wrap:wrap;align-items:baseline}
+details.job summary::-webkit-details-marker{display:none}
+details.job summary::after{content:"+";margin-left:auto;font:700 1.6rem var(--d);color:var(--a);transition:rotate .25s}
+details.job[open] summary::after{rotate:45deg}
+.job h3{font-size:1.3rem}
+.when{color:var(--muted);font-size:.9rem}
+.cur{font-size:.75rem;background:var(--c);color:#1a1200;border-radius:2rem;padding:.1rem .6rem;font-weight:700}
+.jb{padding:0 1.4rem 1.4rem;max-width:46rem}
+.jb p{color:var(--muted);margin:0 0 .9rem}
+.jb ul{margin:0;padding-left:1.1rem}
+.jb li{margin-bottom:.5rem}
+.jb li::marker{color:var(--a)}
+details[open] .jb{animation:dn .35s ease}
+@keyframes dn{from{opacity:0;transform:translateY(-8px)}}
+/* edu */
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1rem}
+.ed{padding:1.6rem}
+.ed h3{font-size:1.15rem;margin-bottom:1rem}
+.ed p{margin:0 0 1rem}
+.ed small{color:var(--muted)}
+/* contact */
+.ct{text-align:center;padding:4rem 1.5rem;background:var(--card)}
+.ct h2{font-size:clamp(2.2rem,7vw,4.5rem)}
+.ct .cta{justify-content:center;margin-top:1.5rem}
+.ct p{color:var(--muted);margin:.4rem 0}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<header><div class="wrap">
+<a class="logo" href="#top">SM.</a>
+<nav aria-label="Sections"><a class="hide" href="#about">About</a><a class="hide" href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a><button class="tg" id="tg" type="button" aria-label="Switch colour theme">◐</button></nav>
+</div></header>
+
+<main id="top">
+<section class="hero">
+<canvas id="cv" aria-hidden="true"></canvas>
+<div class="wrap">
+<span class="pill"><i></i>Nairobi, Kenya · open to opportunities</span>
+<h1>Sam<span>Ndung’u Mwangi</span></h1>
+<div class="role" aria-live="off">I am a <b id="tw"></b><span class="caret"></span></div>
+<p class="lead">I lead delivery operations and people in human-in-the-loop AI data services, keeping large, multilingual teams staffed, trained and on track for client SLAs.</p>
+<div class="cta"><a class="btn main" href="#contact">Let’s talk</a><a class="btn" href="#journey">See my journey</a></div>
+</div>
+<!-- <span class="scroll">scroll ↓</span> -->
+</section>
+
+<div class="wrap">
+<div class="stats">
+<div class="stat gl rv"><b data-n="8" data-s="+">0</b><span>years at CloudFactory</span></div>
+<div class="stat gl rv"><b data-n="7">0</b><span>roles, Data Expert to Associate DSL</span></div>
+<div class="stat gl rv"><b data-n="100" data-s="%">0</b><span>compliance and InfoSec training completion</span></div>
+<div class="stat gl rv"><b data-n="11">0</b><span>months on an autonomous vehicle project</span></div>
+</div>
+</div>
+
+<section id="about"><div class="wrap">
+<h2 class="rv">About me</h2>
+<div class="about">
+<div class="rv">
+<p>I turn capacity, capability and people into reliable delivery.</p>
+<p>I joined CloudFactory in 2018 as a Data Expert, analysing workforce data for the People and Culture leadership team. Since then I have moved through project delivery, training and workforce management, and now support a Delivery Sector Leader on a high-complexity Automotive, Robotics and Spatial Intelligence portfolio.</p>
+<p>I plan shifts and coverage, design onboarding that meets contractual SLAs, and coach specialists through performance and development. I decide with data and flag gaps early with a proposed fix.</p>
+</div>
+<div class="focus gl rv">
+<h3>Right now I</h3>
+<ul>
+<li>Own capacity health: fulfilment, utilisation, attrition and reliability</li>
+<li>Line-manage Service Operations Specialists end to end</li>
+<li>Prepare briefs and risk summaries for client and leadership conversations</li>
+<li>Build backup coverage and cross-training plans</li>
+</ul>
+</div>
+</div>
+</div></section>
+
+<div class="band" aria-hidden="true"><div class="track" id="mq"></div></div>
+
+<section id="skills"><div class="wrap">
+<h2 class="rv">What I bring</h2>
+<p class="sub rv">Five areas I have worked in across eight years. Pick one.</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<ul class="chips" id="chips"></ul>
+</div></section>
+
+<section id="journey"><div class="wrap">
+<h2 class="rv">My journey</h2>
+<p class="sub rv">Seven roles at CloudFactory since June 2018, plus an earlier ICT internship. Open any card for the full detail.</p>
+<div class="tl" id="tl"><div class="fill" id="fill"></div></div>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2 class="rv">Education and credentials</h2>
+<div class="two">
+<div class="ed gl rv"><h3>Education</h3>
+<p><strong>Bachelor of Business Information Technology</strong><br>Jomo Kenyatta University of Agriculture and Technology<br><small>2014 to 2018 · Second Class Honours (Upper Division)</small></p>
+<p><strong>Kenya Certificate of Secondary Education</strong><br>Pioneer School<br><small>2010 to 2013 · Grade A-</small></p></div>
+<div class="ed gl rv"><h3>Certifications</h3>
+<p><strong>CCNA 1 and CCNA 2</strong><br><small>Cisco Certified Network Associate</small></p>
+<p><strong>Elements of AI</strong><br><small>In progress</small></p></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<div class="ct gl rv">
+<h2>Let’s work together</h2>
+<p>Based in Nairobi, Kenya. Referees available on request.</p>
+<div class="cta"><a class="btn main" href="mailto:sam.mwangi284@gmail.com">sam.mwangi284@gmail.com</a><button class="btn" id="cp" type="button">Copy email</button></div>
+</div>
+</div></section>
+</main>
+<footer>© 2026 Sam Ndung’u Mwangi</footer>
+
+<script>
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function $(i){return document.getElementById(i)}
+/* typewriter */
+var words=["delivery operations leader","people manager","training designer","workforce and capacity planner","data storyteller"],wi=0,ci=0,del=false,tw=$('tw');
+function type(){var w=words[wi];tw.textContent=w.slice(0,ci);
+if(!del&&ci===w.length){del=true;return setTimeout(type,1600)}
+if(del&&ci===0){del=false;wi=(wi+1)%words.length}
+ci+=del?-1:1;setTimeout(type,del?30:65)}
+if(RM)tw.textContent=words[0];else type();
+/* hero background: quiet dot grid that lights up near the pointer */
+(function(){var c=$('cv'),x=c.getContext('2d'),W,H,mx=-999,my=-999,G=30;
+function col(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
+function rs(){var r=c.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);W=r.width;H=r.height;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);draw()}
+function draw(){x.clearRect(0,0,W,H);var a=col('--a'),m=col('--muted');
+for(var i=G/2;i<W;i+=G)for(var j=G/2;j<H;j+=G){var d=Math.hypot(i-mx,j-my),n=Math.max(0,1-d/160);
+x.globalAlpha=.22+n*.7;x.fillStyle=n>.05?a:m;x.beginPath();x.arc(i,j,1.5+n*2.5,0,6.3);x.fill()}
+x.globalAlpha=1}
+var h=c.parentNode;
+h.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;if(!RM)requestAnimationFrame(draw)});
+h.addEventListener('pointerleave',function(){mx=my=-999;draw()});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw);
+$('tg').addEventListener('click',function(){setTimeout(draw,0)});
+addEventListener('resize',rs);rs()})();
+/* data */
+var sk={"Operations and workforce":["Workforce management","Capacity planning","Shift scheduling","Resource allocation","Utilisation and fulfilment","Attrition and reliability","SLA management","Service delivery management","Sector governance and reporting"],
+"People leadership":["Line management","Performance management","Corrective action plans","Development plans","Coaching and mentoring","One-on-ones","Change management","Succession and continuity planning"],
+"Training and capability":["Training needs analysis","Instructional design","WorkStream onboarding","Learning design and development","Facilitation","Competency assessment","Training evaluation","TalentLMS"],
+"Delivery and analytics":["Project management","Stakeholder management","Client engagement","Risk management","Dashboards and scorecards","Cost-benefit analysis","Data analysis and visualisation","Process improvement","Budget management"],
+"Technical skills":["TalentLMS","SharePoint","Microsoft PowerPoint","Data visualisation and dashboarding","Database management","PHP","HTML5","CSS","JavaScript","Laravel","Content management systems","SEO"]};
+var all=[];for(var k in sk)all=all.concat(sk[k]);
+$('mq').innerHTML=all.concat(all).map(function(s){return'<span>'+s+'</span>'}).join('');
+var tabs=$('tabs'),chips=$('chips');
+function show(n){[].forEach.call(tabs.children,function(t){t.setAttribute('aria-selected',t.textContent===n)});
+chips.innerHTML='';sk[n].forEach(function(s,i){var l=document.createElement('li');l.textContent=s;l.style.animationDelay=i*45+'ms';chips.appendChild(l)})}
+Object.keys(sk).forEach(function(n){var b=document.createElement('button');b.className='tab';b.type='button';b.setAttribute('role','tab');b.textContent=n;b.onclick=function(){show(n)};tabs.appendChild(b)});
+show("Operations and workforce");
+var jobs=[
+["Associate Delivery Sector Leader","Nov 2026 to present","Dual-function role combining full workforce management of a sector’s Service Operations Specialist team with direct operational support to the Delivery Sector Leader across a high-complexity Automotive, Robotics and Spatial Intelligence portfolio.",[
+"Act as the DSL’s operational partner, preparing operational briefs, status updates and risk summaries used directly in client and leadership conversations, so the DSL can focus on client-facing and strategic priorities.",
+"Own capacity health for the sector, tracking Fulfilment, Utilisation, Attrition and Reliability across all workstreams and reporting through weekly syncs, monthly reviews and quarterly business reviews.",
+"Make specialist allocation decisions within the sector and recommend rebalancing to the DSL, flagging capacity gaps early with data and a proposed resolution.",
+"Line-manage Service Operations Specialists across the full people lifecycle: onboarding, goal setting, one-on-ones, performance reviews, development planning and performance improvement.",
+"Chair the daily workstream standup and prepare sector-level people and capacity data for governance meetings.",
+"Monitor workstream health across smaller accounts so they receive consistent operational attention when demand spikes on the sector’s largest account.",
+"Build backup coverage and cross-training plans for all workstreams, and support execution of the sector transition plan from a shared-service to a sector-embedded operating model, including specialist communications.",
+"Manage leave planning and absence coverage so no workstream falls below minimum coverage thresholds.",
+"Escalate retention risks, welfare concerns and performance blockers to the DSL and Talent Business Partner with recommended actions."],1],
+["Associate Workforce Manager","Aug to Nov 2026","Sector-embedded people manager leading two teams, Service Operations Specialists and Training Specialists, to ensure CloudWorkers were ready to meet contractual client SLAs from Guided Production onward.",[
+"Directly managed Service Operations Specialists and Training Specialists, running one-on-ones, scorecard reviews and performance conversations, and setting goals and quarterly-reviewed development plans.",
+"Monitored workstream capacity across the sector, maintaining visibility of actual versus required hours, coverage gaps and shift patterns, and communicated trends and risks to the DSL.",
+"Oversaw training requests from Delivery Owners, allocating Training Specialists and escalating priority conflicts, so onboarding programs were benchmarked against contractual SLA thresholds.",
+"Ensured Service Operations and Training Specialists worked as one coordinated function, from the Waiting Pool to Guided Production and through ongoing performance support.",
+"Oversaw timely, consistent and well-documented Corrective Action Plans for underperforming CloudWorkers, and escalated systemic performance trends with recommended actions.",
+"Identified operational bottlenecks and cost drivers to support sector profitability and Gross Margin.",
+"Partnered with the DSL on sector structure design, including Capacity Associate and Capability Associate to CloudWorker ratios.",
+"Ensured 100% completion of corporate policy, InfoSec and Culture Code training across the team."]],
+["Training Consultant","Mar to Jul 2026","",[
+"Investigated complex, non-standard WorkStream training requests, leading data capture from Delivery Owners, Training Coordinators and performance data (CF4) to find root causes of CloudWorker performance gaps.",
+"Defined measurable training objectives aligned to WorkStream, sector and departmental goals, and built business cases with cost-benefit analysis for proposed training solutions.",
+"Designed and project-managed high-complexity training programs end to end, including growth plans for significant workstream ramps and technical workarounds where the production annotation tool could not be used for training.",
+"Delivered complex training programs to large, multilingual cohorts with mixed experience levels, using simulations, role-play and problem-based learning.",
+"Built training evaluation strategies that measured programs against standard training outcomes and wider business metrics.",
+"Coached and mentored junior trainers on delivery technique, and reviewed training materials developed by others.",
+"Collaborated with subject matter experts to turn complex information into accessible learning content, and moderated competency assessments.",
+"Managed stakeholder relationships with Sector Owners and Delivery Owners, aligning training delivery to client commercial objectives."]],
+["Senior Training Specialist","Jul 2024 to Feb 2026","",[
+"Conducted Training Needs Analysis for new WorkStreams and use cases, consulting Sector and Delivery Owners and reviewing performance data to define onboarding scope and milestones.",
+"Designed and developed WorkStream Onboarding programs, including training plans, event decks, e-learning courses, datasets and assessments, using the Training Toolkit.",
+"Created knowledge bases, quick reference guides and job aids that supported on-the-job performance.",
+"Delivered training events and workshops, facilitating interactive exercises, giving constructive feedback to learners and resolving technical issues in virtual sessions.",
+"Maintained training records in the Training Practice planner and Training Requests, and used cohort data to evaluate program effectiveness and improve the next cohort.",
+"Produced ad hoc training metrics reports to inform management decisions, and visualised trends from TalentLMS, CF4 and other sources in clear formats.",
+"Performed and moderated competency assessments, and gave guidance and peer feedback to junior colleagues.",
+"Consistently achieved 100% completion of assigned compliance and InfoSec training."]],
+["Project Delivery Associate","Apr 2022 to Jun 2024","",[
+"Led project delivery for client workstreams, managing teams and assigning work across research, analysis, development, testing, issue resolution, status reporting, documentation and training.",
+"Defined project scope, goals and deliverables with stakeholders, and coordinated the full project lifecycle from planning and resource gathering through execution tracking to formal closure.",
+"Identified project risks and built mitigation strategies, monitored progress and recommended cost-effective improvements.",
+"Produced progress reports on ongoing projects and obstacles for stakeholders and senior leadership.",
+"Ran quality checks through regular reviews of reports, project analysis and presentations.",
+"Managed budgets and client requirements, and supported costing, timing and financial-risk discussions.",
+"Facilitated client engagement: built client relationships, mapped customer journeys and helped create client success roadmaps.",
+"Helped grow key business metrics, including revenue, operational efficiency, client retention and proactive risk management.",
+"Supported human-in-the-loop solutions that combine people and technology to structure data for AI.",
+"Executed strategic planning assignments set by the senior director of Project Management."]],
+["Project Delivery Assistant","Dec 2020 to Mar 2022","",[
+"Coordinated team members to meet project deliverables and ensured they had the resources they needed.",
+"Supported delivery on an autonomous vehicle (AV) data annotation project for 11 months, building a thorough understanding of AV annotation workflows.",
+"Contributed to a lead enrichment project for the world’s largest lead enrichment company.",
+"Developed and edited reports, managed scheduling and facilitated communication across teams."]],
+["Data Expert","Jun 2018 to Nov 2020","",[
+"Pulled, compiled and analysed data from multiple sources to produce insights on workforce information.",
+"Performed direct analysis, reporting and data visualisation from raw data.",
+"Identified trends in reports and dashboards to support insight delivery and problem solving.",
+"Designed data insights presentations, dashboards and scorecards by translating stakeholder needs into data-driven solutions.",
+"Reported findings to the People and Culture (P&C) Leadership team."]],
+["ICT Intern","Aug to Nov 2016","",[
+"Analysed data to recommend improvements to systems and processes, and collected and stored data for reports.",
+"Provided technical support, installed and configured software and networks, and supported network security scans."],0,"The National Treasury, Kenya"]];
+var tl=$('tl');
+jobs.forEach(function(j){var d=document.createElement('details');d.className='job gl rv';if(j[4])d.open=true;
+d.innerHTML='<summary><h3></h3><span class="when"></span>'+(j[4]?'<span class="cur">Current</span>':'')+'</summary><div class="jb"><p></p><ul></ul></div>';
+d.querySelector('h3').textContent=j[0];d.querySelector('.when').textContent=j[1]+' · '+(j[5]||'CloudFactory');var sp=d.querySelector('p');if(j[2])sp.textContent=j[2];else sp.remove();
+var u=d.querySelector('ul');j[3].forEach(function(t){var l=document.createElement('li');l.textContent=t;u.appendChild(l)});tl.appendChild(d)});
+/* effects */
+document.addEventListener('pointermove',function(e){var g=e.target.closest&&e.target.closest('.gl');if(g){var r=g.getBoundingClientRect();g.style.setProperty('--mx',e.clientX-r.left+'px');g.style.setProperty('--my',e.clientY-r.top+'px')}});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');var n=e.target.querySelector&&e.target.querySelector('[data-n]');if(n&&!n.done)count(n);io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+function count(n){n.done=1;var to=+n.dataset.n,s=n.dataset.s||'',t0=performance.now();
+function f(t){var p=Math.min((t-t0)/1400,1);n.textContent=Math.round(to*(1-Math.pow(1-p,3)))+s;if(p<1)requestAnimationFrame(f)}
+RM?n.textContent=to+s:requestAnimationFrame(f)}
+function sc(){var h=document.documentElement,p=scrollY/(h.scrollHeight-innerHeight);$('bar').style.width=(p*100)+'%';
+var r=tl.getBoundingClientRect(),v=Math.max(0,Math.min(r.height,innerHeight*.6-r.top));$('fill').style.height=v+'px'}
+addEventListener('scroll',sc,{passive:true});sc();
+$('tg').onclick=function(){var r=document.documentElement,d=r.getAttribute('data-theme')?r.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme: dark)').matches;r.setAttribute('data-theme',d?'light':'dark')};
+$('cp').onclick=function(){var b=this;try{navigator.clipboard.writeText('sam.mwangi284@gmail.com').then(function(){b.textContent='Copied'})}catch(e){b.textContent='sam.mwangi284@gmail.com'}setTimeout(function(){b.textContent='Copy email'},2000)};
+</script>
+</body>
+</html>
