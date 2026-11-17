@@ -114,6 +114,17 @@ details[open] .jb{animation:dn .35s ease}
 .ct .cta{justify-content:center;margin-top:1.5rem}
 .ct p{color:var(--muted);margin:.4rem 0}
 footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
+.hi{font:500 1.4rem var(--d);color:var(--muted);margin:1.2rem 0 0}
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;padding-bottom:4.5rem}
+.pillars div{padding:.3rem 0 .3rem 1rem;border-left:4px solid var(--a)}
+.pillars b{display:block;font-family:var(--d);font-size:1.15rem}
+.pillars span{color:var(--muted);font-size:.95rem}
+.wk{display:grid;grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));gap:1rem}
+.wk article{padding:1.6rem;display:flex;flex-direction:column;gap:.8rem}
+.wk h3{font-size:1.25rem}
+.wk p{margin:0;color:var(--muted)}
+.tg2{display:flex;flex-wrap:wrap;gap:.4rem;margin:auto 0 0;padding:0;list-style:none}
+.tg2 li{font-size:.82rem;border:1px solid var(--line);border-radius:.4rem;padding:.1rem .6rem}
 .rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
 .rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
@@ -123,7 +134,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
 <div id="bar"></div>
 <header><div class="wrap">
 <a class="logo" href="#top">SM.</a>
-<nav aria-label="Sections"><a class="hide" href="#about">About</a><a class="hide" href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a><button class="tg" id="tg" type="button" aria-label="Switch colour theme">◐</button></nav>
+<nav aria-label="Sections"><a class="hide" href="#about">About</a><a class="hide" href="#skills">Skills</a><a class="hide" href="#work">Work</a><a href="#journey">Journey</a><a href="#contact">Contact</a><button class="tg" id="tg" type="button" aria-label="Switch colour theme">◐</button></nav>
 </div></header>
 
 <main id="top">
@@ -131,12 +142,13 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
 <canvas id="cv" aria-hidden="true"></canvas>
 <div class="wrap">
 <span class="pill"><i></i>Nairobi, Kenya · open to opportunities</span>
+<p class="hi">Hi, I’m</p>
 <h1>Sam<span>Ndung’u Mwangi</span></h1>
 <div class="role" aria-live="off">I am a <b id="tw"></b><span class="caret"></span></div>
 <p class="lead">I lead delivery operations and people in human-in-the-loop AI data services, keeping large, multilingual teams staffed, trained and on track for client SLAs.</p>
 <div class="cta"><a class="btn main" href="#contact">Let’s talk</a><a class="btn" href="#journey">See my journey</a></div>
 </div>
-<!-- <span class="scroll">scroll ↓</span> -->
+
 </section>
 
 <div class="wrap">
@@ -168,6 +180,13 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
 </div>
 </div></section>
 
+<div class="wrap pillars rv">
+<div><b>Leadership</b><span>Line management, coaching, performance and development plans</span></div>
+<div><b>Capacity</b><span>Planning, scheduling and coverage across workstreams</span></div>
+<div><b>Training</b><span>Needs analysis, design and delivery against SLAs</span></div>
+<div><b>Delivery</b><span>Scope, risk, budgets and stakeholder updates</span></div>
+</div>
+
 <div class="band" aria-hidden="true"><div class="track" id="mq"></div></div>
 
 <section id="skills"><div class="wrap">
@@ -175,6 +194,17 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;text-align:center}
 <p class="sub rv">Five areas I have worked in across eight years. Pick one.</p>
 <div class="tabs" role="tablist" id="tabs"></div>
 <ul class="chips" id="chips"></ul>
+</div></section>
+
+<section id="work"><div class="wrap">
+<h2 class="rv">Selected work</h2>
+<p class="sub rv">Highlights from the roles below.</p>
+<div class="wk">
+<article class="gl rv"><h3>Sector operating model transition</h3><p>Supporting the move from a shared-service to a sector-embedded operating model, including communications to specialists.</p><ul class="tg2"><li>Change management</li><li>Workforce</li><li>Communications</li></ul></article>
+<article class="gl rv"><h3>Capacity health reporting</h3><p>Tracking fulfilment, utilisation, attrition and reliability across all workstreams, reported through weekly syncs, monthly reviews and quarterly business reviews.</p><ul class="tg2"><li>Capacity planning</li><li>Reporting</li><li>SLA management</li></ul></article>
+<article class="gl rv"><h3>Training for large, multilingual cohorts</h3><p>Complex programs using simulations, role-play and problem-based learning, including technical workarounds where the production annotation tool could not be used.</p><ul class="tg2"><li>Instructional design</li><li>Facilitation</li><li>Evaluation</li></ul></article>
+<article class="gl rv"><h3>Autonomous vehicle annotation</h3><p>Supported delivery on an AV data annotation project for 11 months, building a thorough understanding of AV annotation workflows.</p><ul class="tg2"><li>Project delivery</li><li>Data annotation</li><li>Autonomous vehicles</li></ul></article>
+</div>
 </div></section>
 
 <section id="journey"><div class="wrap">
